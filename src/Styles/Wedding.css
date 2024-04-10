@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Moon+Dance&display=swap');
+
+.wedding-section-outer {
+    padding: 30px 0;
+}
+.wedding-section-outer .wedding-item .item-inner {
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-image: url('https://i.postimg.cc/fRbmnPJp/white-elegant-texture-background-style-23-2148432200.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 15px;
+}
+
+.wedding-section-outer .wedding-item .item-inner .day {
+    background: #2a3c47;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+
+.wedding-section-outer .wedding-item .item-inner .date {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+.wedding-section-outer .wedding-item .item-inner .loc {
+    text-align: center;
+    padding: 4px;
+    font-weight: 600;
+    font-size: 17px;
+    width: 100%;
+}
+
+.wedding-day {
+    display: flex;
+    margin: 20px 0;
+    justify-content: flex-start;
+}
+
+@media(max-width:640px) {
+    .wedding-day {
+        display: block;
+    }
+}
+
+.wed-info {
+    display: block;
+}
+
+.alert-item {
+    padding: 14px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.alert-item .title {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Montserrat";
+
+}
+
+.alert-item .icon svg {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #ffa940;
+}
+
+.alert-item p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.wedding-section-outer .item {
+    margin-bottom: 20px;
+}
+
+.wed-book-price {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.wed-book-price .prc-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.wed-book-price .prc {
+    font-weight: 600;
+    font-size: 29px;
+    color: #078e8d;
+}
+
+.wed-book-price .prc span {
+    font-size: 14px;
+}
+
+.wedding-section-outer .item .oth-wed {
+    background: #078e8d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.wedding-section-outer .item .oth-wed .title {
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+}
+
+.wedding-section-outer .item .oth-wed .btn {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 16px;
+    font-weight: 600;
+    color: #078e8d;
+    font-size: 14px;
+}
+
+.wed-per-image .image-block {
+    height: 500px;
+    max-width: 550px;
+    width: 100%;
+    position: relative;
+    margin-left: 20px;
+}
+
+@media(max-width:767px) {
+    .wed-per-image .image-block {
+        height: 400px;
+        position: relative;
+    }
+
+    .wedding-section-outer .wedding-item {
+        margin-bottom: 20px;
+    }
+
+    .wed-per-image .image-block {
+        margin: auto;
+    }
+}
+
+.wed-per-image .image-block img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.wed-per-image .image-block::after {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+}
+
+.wed-per-image .image-block::before {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 50%;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+}
+
+.wed-per-image .image-block:hover::after {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.wed-per-image .image-block:hover::before {
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.wed-per-image .image-block .wed-per-name {
+    position: absolute;
+}
+
+.wed-per-image .image-block .wed-per-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 6px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    z-index: 22;
+    color: #000;
+    font-family: "Moon Dance", cursive;
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+.Wedding_about .content {
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 10px;
+}
+
+.Wedding_about .content .title {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: #2a3c47;
+}
+
+.Wedding_about .name {
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.Wedding_about .int {
+    font-style: 14px;
+    color: #bdbdbd;
+}
+
+/* wedding Detail Information */
+.wedding-details-outer {
+    margin: 30px 0;
+}
+.wedding-details-outer .wed-daily{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    margin-bottom: 20px;
+}
+.wedding-details-outer .wed-daily .title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.wedding-details-outer .wed-daily .other .oth{
+    font-size: 15px;
+}
+.wedding-details-outer .wed-daily .other .oth span{
+    font-weight: 600;
+    color: #2a3c47;
+    margin-left: 2px;
+    margin-bottom: 6px;
+}
+.wed-day-item{
+    margin-bottom: 20px;
+}
+.wed-day-item .item-inner {
+    padding: 14px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.wed-day-item .item-inner .base .d {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.wed-day-item .item-inner .base .date {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.wed-day-item .item-inner .base .base{
+    text-transform: uppercase;
+}
+.wed-day-item .item-inner .base .loc {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.wed-day-item .item-inner .time{
+    margin: 15px 0;
+    color: #8e969e;
+    font-size: 15px;
+}
+.wed-day-item .item-inner .rules{
+    margin: 15px 0;
+}
+.wed-day-item .item-inner .rules .rl{
+    font-size: 15px;
+    color: #8e969e;
+}
+.wed-day-item .item-inner .time b,
+.wed-day-item .item-inner .rules .rl b,
+.wed-day-item .item-inner .fun .fun-mus .mus b{
+    font-weight: 600;
+    padding-left: 4px;
+    color: #353535;
+}
+.wed-day-item .item-inner .fun .fun-title {
+    margin: 19px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.wed-day-item .item-inner .fun .text {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #8e969e;
+
+}
+.wed-day-item .item-inner .fun .fun-mus .mus{
+    font-size: 15px;
+    color: #8e969e;
+
+}

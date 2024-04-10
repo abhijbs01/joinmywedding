@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+.about-section1-outer {
+    margin: 50px 0;
+}
+
+.about-section1-outer .about-sec1-title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Crimson Text", serif;
+    margin-bottom: 20px;
+}
+
+.about-content-outer .abt-con-item .item-inner {
+    padding: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-repeat: no-repeat;
+    font-family: "Crimson Text";
+    background-color: rgba(100, 100, 111, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+    aspect-ratio: 3/2.5;
+    background-blend-mode: overlay;
+    background-image: url("https://i.postimg.cc/VsXdGTb2/Dark-Green-Floral-and-Elegant-Wedding-Invitation-Card.png");
+}
+
+@media(max-width:991px) {
+    .about-content-outer .abt-con-item {
+        margin-bottom: 20px;
+    }
+}
+
+.about-content-outer .abt-con-item .item-inner .cont {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-around;
+}
+
+.about-content-outer .abt-con-item .item-inner .cont .title {
+    font-size: 22px;
+    font-family: "Crimson Text";
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.about-content-outer .abt-con-item .item-inner .cont .text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about-content-outer .abt-con-item .item-inner .cont .loc-date span {
+    color: cadetblue;
+    font-weight: 900;
+}
+
+.register-outer {
+    margin: 50px 0;
+}
+
+.register-outer .section-title {
+    font-family: "Crimson Text", serif;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+}
+
+.register-content {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 20px;
+    font-family: "Crimson Text", serif;
+}
+
+.register-content .reg-item .item-inner .reg-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #078e8d;
+    margin-bottom: 14px;
+}
+
+.register-content .reg-item {
+    margin-bottom: 18px;
+}
+
+.register-content .reg-item .item-inner .content {
+    font-size: 16px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.other-item .item .item-inner {
+    padding: 10px 0;
+
+}
+
+.other-item .item .item-inner .title {
+    font-size: 18px;
+    color: #078e8d;
+}
+
+.book-wed-inner {
+    padding: 20px;
+    background: #E3F4F4;
+    border-radius: 10px;
+    background-image: url("https://i.postimg.cc/6qmSMP9q/pngtree-floral-light-green-border-decorative-background-image-2362096.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    object-fit: fill;
+}
+
+.book-wed-outer {
+    margin: 50px 0;
+}
+
+.book-wed-inner .title {
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Crimson Text";
+    margin-bottom: 20px;
+}
+
+.book-wed-inner .wed-btn {
+    font-size: 18px;
+    background: #078e8d;
+    display: block;
+    font-weight: 500;
+    max-width: 220px;
+    width: auto;
+    padding: 8px 8px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+}
+.book-wed-inner .wed-img img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+@media(max-width:640px){
+    .book-wed-inner .title{
+        text-align: center;
+    }
+    .book-wed-inner .wed-btn{
+        margin: auto;
+    }
+    
+    .book-wed-inner .wed-img{
+        margin: auto;
+        text-align: center;
+    }
+ .wed-book{
+    margin-bottom: 20px;
+ }   
+}

@@ -1,0 +1,8 @@
+.contact-image-block{
+    padding: 20px 0;
+}
+@media(max-width:1024px){
+    .contact-image-block{
+        padding: 70px 0;
+    }
+}

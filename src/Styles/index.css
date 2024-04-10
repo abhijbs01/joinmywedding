@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+*{
+    font-family: "Crimson Text";
+}
+.common-block {
+    padding: 80px 0;
+    background: #C4DFDF;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title .title {
+    font-size: 35px;
+    font-weight: 600;
+    color: #078e8d;
+}
+.section-title .common-text{
+    font-size: 20px;
+    color: #078e8d;
+    font-weight: 500;
+}
+@media(max-width:1024px){
+    .common-block {
+        padding: 40px 0;
+    }
+}
+a{
+    text-decoration:none!important;
+    color: #000!important;
+}
